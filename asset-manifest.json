@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.0c4c53d2.js",
-    "static/media/snow.jpg": "/static/media/snow.2f9fbf55ccc3a7e03744.jpg",
-    "static/media/sunAndClouds.jpg": "/static/media/sunAndClouds.d6e836c03d77465ec03e.jpg",
-    "static/media/haze.jpg": "/static/media/haze.2a3c6631be18e513a06f.jpg",
-    "static/media/clouds.jpg": "/static/media/clouds.5bd01a4500fe2e55c5de.jpg",
-    "static/media/rain.jpg": "/static/media/rain.cd144cacbd6a89fea965.jpg",
-    "static/media/sunny.jpg": "/static/media/sunny.fbe902124cd0db9924ae.jpg",
-    "index.html": "/index.html",
-    "main.0c4c53d2.js.map": "/static/js/main.0c4c53d2.js.map"
+    "main.js": "/perion-client/static/js/main.0b1bd718.js",
+    "static/media/snow.jpg": "/perion-client/static/media/snow.2f9fbf55ccc3a7e03744.jpg",
+    "static/media/sunAndClouds.jpg": "/perion-client/static/media/sunAndClouds.d6e836c03d77465ec03e.jpg",
+    "static/media/haze.jpg": "/perion-client/static/media/haze.2a3c6631be18e513a06f.jpg",
+    "static/media/clouds.jpg": "/perion-client/static/media/clouds.5bd01a4500fe2e55c5de.jpg",
+    "static/media/rain.jpg": "/perion-client/static/media/rain.cd144cacbd6a89fea965.jpg",
+    "static/media/sunny.jpg": "/perion-client/static/media/sunny.fbe902124cd0db9924ae.jpg",
+    "index.html": "/perion-client/index.html",
+    "main.0b1bd718.js.map": "/perion-client/static/js/main.0b1bd718.js.map"
   },
   "entrypoints": [
-    "static/js/main.0c4c53d2.js"
+    "static/js/main.0b1bd718.js"
   ]
 }
