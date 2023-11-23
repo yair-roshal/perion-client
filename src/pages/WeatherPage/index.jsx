@@ -70,7 +70,10 @@ export function WeatherPage() {
   async function getWeatherFromAPI(city) {
     try {
       setLoading(true);
-
+      console.log(
+        "process.env.REACT_APP_WEATHER_API_KEY",
+        process.env.REACT_APP_WEATHER_API_KEY
+      );
       const response = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=en&units=metric&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
       );
