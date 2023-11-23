@@ -3,7 +3,6 @@ import { Typography } from "@mui/material";
 import { FlexColumnContainer, FlexRowContainer } from "styles/StyledComponents";
 
 const PageInfo = ({ user, userName }) => {
-  console.log('userName :>> ', userName);
   return (
     <>
       <FlexColumnContainer

@@ -1,6 +1,6 @@
 import React from "react";
 import { TextField, Button } from "@mui/material";
-
+import { FlexRowContainer } from "styles/StyledComponents";
 const CityInput = ({
   cityInputValue,
   setCityInputValue,
@@ -10,9 +10,9 @@ const CityInput = ({
   latitude,
 }) => {
   return (
-    <div>
+    <FlexRowContainer sx={{ justifyContent: "center" }}>
       <TextField
-        sx={{ width: 300, mt: 1 }}
+        sx={{ width: 300 }}
         value={cityInputValue}
         onChange={(e) => setCityInputValue(e.target.value)}
         onKeyDown={(e) => {
@@ -40,7 +40,7 @@ const CityInput = ({
       >
         Take City from GPS
       </Button>
-    </div>
+    </FlexRowContainer>
   );
 };
 
