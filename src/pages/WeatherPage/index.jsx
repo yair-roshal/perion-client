@@ -44,7 +44,7 @@ export function WeatherPage() {
   async function getCityFromGeo() {
     try {
       const response = await axios.get(
-        `http://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
+        `https://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
       );
       setCityInputValue(response.data[0].name);
     } catch (error) {
