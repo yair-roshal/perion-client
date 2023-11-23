@@ -1,0 +1,45 @@
+{
+  "name": "perion-client",
+  "version": "7.7.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.14.17",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.5",
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "5.0.1",
+    "query-string": "^8.1.0",
+    "styled-components": "^6.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.15",
+    "sass": "^1.69.5"
+  }
+}
